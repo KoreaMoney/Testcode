@@ -8,18 +8,12 @@
 
 ## 자주 사용하는 기능
 ### toBe
-### toEqual
-### toStrictEqual
-### toBeNull
-### toBeUndefined
-### toBeDefined
-### toBeTruthy
-### toBeFalsy
-### toBeGreaterThan
-### toBeGreaterThanOrEqual
-### toBeLessThan
-### toBeLessThanOrEqual
+### toEqual or toStrictEqual
+### toBeNull or toBeUndefined or toBeDefined
+### toBeTruthy or toBeFalsy
+### toBeGreaterThan or toGreaterThanOrEqualBe
+### toBeLessThan or toBeLessThanOrEqual
 ### toMatch
-### toEqual
 ### toContain
 ### toThrow
+### 비동기 처리방식 (Promise, async & await)
