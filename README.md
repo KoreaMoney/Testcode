@@ -4,7 +4,7 @@
 ## test시작
 ### npm test
 
-### 기능에 대한 정리 : 
+### 기능에 대한 정리 : https://github.com/KoreaMoney/Testcode-jest/blob/main/fn.test.js
 
 ## 자주 사용하는 기능
 ### toBe
