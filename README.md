@@ -7,6 +7,7 @@
 ### 기능에 대한 정리
 1. https://github.com/KoreaMoney/Testcode-jest/blob/main/fn.test.js
 2. https://github.com/KoreaMoney/Testcode-jest/blob/main/async/test/fn.test.js
+3. 
 
 ## 자주 사용하는 기능
 ### toBe
@@ -20,3 +21,5 @@
 ### toThrow
 ### 비동기 처리방식 (Promise, async & await)
 ### beforeEach & afterEach
+### mock함수
+
