@@ -8,7 +8,8 @@
 1. https://github.com/KoreaMoney/Testcode-jest/blob/main/fn.test.js
 2. https://github.com/KoreaMoney/Testcode-jest/blob/main/async/test/fn.test.js
 3. https://github.com/KoreaMoney/Testcode-jest/blob/main/mock/test/fn.test.js
-4. 추가 내용 정리 : https://github.com/KoreaMoney/React-jest/blob/main/src/components/test/JoinButton.test.js
+4. 추가 내용 정리
+   - https://github.com/KoreaMoney/React-jest/blob/main/src/components/test/JoinButton.test.js
 
 ## 자주 사용하는 기능
 ### toBe
