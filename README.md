@@ -27,7 +27,13 @@
 ## 추가 기능내용
 ### getByRole : 어떤 역할을 하는 것인지 가져위해 사용한다.
 ### getByText : text 태그에서 text를 가져오기 위해 사용한다.
-### getByRole("heading") : h태그를 말한다.
+### getByRole의 들어가는 값
+  - heading : h태그를 말한다. (h1~h6)
+  - button : button
+  - a : link
+  - checkBox : checkBox
+  - radio : radio
+  - select : combobox
 ### toBeInTheDocument : document안에 존재하는지 확인한다.
 ### toBeDisabled : disable 옵션이 적용되어 있는지 확인한다.(다시말해 비활성여부를 확인한다.)
 ### toBeEnabled : enable 옵션이 적용되어 있는지 확인한다.(다사말해 활성여부를 확인한다.)
