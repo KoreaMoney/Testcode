@@ -26,8 +26,10 @@
 ### mock함수
 
 ## 추가 기능내용
-### getByRole : 어떤 역할을 하는 것인지 가져위해 사용한다.
-### getByText : text 태그에서 text를 가져오기 위해 사용한다.
+### getByRole 
+- 어떤 역할을 하는 것인지 가져위해 사용한다.
+### getByText 
+- text 태그에서 text를 가져오기 위해 사용한다.
 ### getByRole의 들어가는 값
   - heading : h태그를 말한다. (h1~h6)
   - button : button
@@ -35,11 +37,21 @@
   - checkBox : checkBox
   - radio : radio
   - select : combobox
-### toBeInTheDocument : document안에 존재하는지 확인한다.
-### toBeDisabled : disable 옵션이 적용되어 있는지 확인한다.(다시말해 비활성여부를 확인한다.)
-### toBeEnabled : enable 옵션이 적용되어 있는지 확인한다.(다사말해 활성여부를 확인한다.)
-### toHaveStyle : style을 가지고 있는지 확인한다.
-### getByDisplayValue : value의 값을 찾아 test할 수 있다.
-### getByRole("textbox")가 중첩될 경우 :getByRole 대신 label을 사용할 경우 getByLabelText("이름")을 작성한다.
+### toBeInTheDocument 
+- document안에 존재하는지 확인한다.
+### toBeDisabled 
+- disable 옵션이 적용되어 있는지 확인한다.(다시말해 비활성여부를 확인한다.)
+### toBeEnabled 
+- enable 옵션이 적용되어 있는지 확인한다.(다사말해 활성여부를 확인한다.)
+### toHaveStyle 
+- style을 가지고 있는지 확인한다.
+### getByDisplayValue 
+- value의 값을 찾아 test할 수 있다.
+### getByRole("textbox")가 중첩될 경우
+- getByRole 대신 label을 사용할 경우 getByLabelText("이름")을 작성한다.
 ### getByRole에서 heading항목이 두개 이상이라면, 여러개의 heading에서 하나를 선택하고 싶다면 level로 몇번째 heading인지 알려주면 정상적으로 다시 test가 진행된다.
+### queryBy
+- 데이터가 없어서 빈값일 경우 null이나 빈배열을 반환하여 에러를 대처한다.
+### toHaveLength
+- 배열의 길이로 li가 제대로 들어왔는지도 확인할 수 있다.
 
