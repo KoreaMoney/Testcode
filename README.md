@@ -38,3 +38,7 @@
 ### toBeDisabled : disable 옵션이 적용되어 있는지 확인한다.(다시말해 비활성여부를 확인한다.)
 ### toBeEnabled : enable 옵션이 적용되어 있는지 확인한다.(다사말해 활성여부를 확인한다.)
 ### toHaveStyle : style을 가지고 있는지 확인한다.
+### getByDisplayValue : value의 값을 찾아 test할 수 있다.
+### getByRole("textbox")가 중첩될 경우 :getByRole 대신 label을 사용할 경우 getByLabelText("이름")을 작성한다.
+### getByRole에서 heading항목이 두개 이상이라면, 여러개의 heading에서 하나를 선택하고 싶다면 level로 몇번째 heading인지 알려주면 정상적으로 다시 test가 진행된다.
+
